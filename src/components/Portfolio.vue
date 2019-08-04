@@ -104,14 +104,14 @@
 
 
     <!-- Roo Modal -->
-    <b-modal style = "background-color: blue;" id="rooModal" title="The Live Like Roo Foundation" hide-footer no-close-on-backdrop>
+    <b-modal id="rooModal" title="The Live Like Roo Foundation" hide-footer no-close-on-backdrop>
       <p class="my-4">LLRF is an all-volunteer-run,  donation-based, 501C3 charitable organization who provides support and financial assistance to families whose pet faces a cancer diagnosis. In 2018, The Live Like Roo Foundation provided over $350,000 in financial assistance.</p>
 
       <p>The foundation had been reliant on a dated Wordpress website and multiple external applications and spreadsheets to handle their day to day operations. Handling about 50 financial applications and 200 care package requests a month had become a copy/paste nightmare. I was tasked with both giving the website a face-lift and creating a one-stop-shop solution to handle their donations (both single and monthly) and care package and financial assistance requests.</p>
 
       <p>Rebuilding from the ground up using PHP/Laravel and Vue.js, I was able to eliminate costly third-party applications. Donations are processed with a single Stripe integration and care packages are sent with a single Shippo integration - no more copying and pasting.</p>
 
-      <p>The dashboard is built using Laravel Nova, and this is deployed using Laravel Forge on Digital Ocean. The code privately resides on Github, and I'm happy to share it (and a glimpse of the dashboard) in person to all who care.</p>
+      <p>The dashboard is built using Laravel Nova, and deployed using Laravel Forge on Digital Ocean. The code privately resides on Github, but I'm happy to share it (and a glimpse of the dashboard) in person to inquiring minds.</p>
 
       <div style="text-align: center;">
         <a href="https://livelikeroo.org" target="_blank"><button class="my-3">Visit https://livelikeroo.org</button></a>
@@ -136,7 +136,7 @@
 
       <hr>
 
-      <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management, instead of passing variables as props, so there is one source of truth. Clicking button above will open a new window with a demo.</p> 
+      <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
 
       <a href="https://baldmike.github.io/craps-vue/" target="_blank"><button class="my-3">Vue Craps Game</button></a>
 
@@ -285,7 +285,6 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-
-/* } */
 }
+
 </style>

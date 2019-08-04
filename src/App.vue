@@ -29,4 +29,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.modal-body {
+  background-color: rgb(125, 248, 252) !important;
+  color: rgb(48, 49, 49) !important;
+}
 </style>
