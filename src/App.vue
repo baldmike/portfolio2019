@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <font-awesome-icon icon="twitter" />
+    
     <!-- <img alt="Vue logo" src="./assets/stairs.jpg" height="900"> -->
     <portfolio/>
+    <technologies/>
   </div>
 </template>
 
 <script>
 import Portfolio from './components/Portfolio.vue'
+import Technologies from './components/Technologies.vue'
 
 export default {
   name: 'app',
   components: {
-    Portfolio
+    Portfolio,
+    Technologies
   }
 }
 </script>
