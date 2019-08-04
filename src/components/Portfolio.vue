@@ -34,7 +34,9 @@
     <div class="parallax parapic2" id="aboutSection"></div>
     <b-row>
       <b-col>
-        <h1>PROJECTS</h1>
+        <div class="shout">
+          <h1>PROJECTS</h1>
+        </div>
       </b-col>
     </b-row>
     <div class="white-bar" id="projects">
@@ -64,7 +66,10 @@
     <div class="white-bar" id="contactSection">
       <b-row>
         <b-col>
-          <h1>CONTACT BALD MIKE</h1>
+          <div class="shout">
+            <h1>CONTACT BALD MIKE</h1>
+          </div>
+          
         </b-col>
         
       </b-row>
@@ -257,6 +262,10 @@ a {
 .headline {
   position: sticky;
   top: 200px;
+}
+
+.shout {
+  margin-top: 40px;
 }
 
 .copyright {
